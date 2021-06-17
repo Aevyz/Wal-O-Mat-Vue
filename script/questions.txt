@@ -21,10 +21,10 @@ Proctorio ist ein akzeptables Tool, um online Klausuren durchzuführen.
 Es stellt eine tragbare Alternative dar, wenn Studierende, die an datenschutztechnisch fragwürdigen Klausurformaten nicht teilnehmen möchten, diese nur in späteren Semestern nachholen können.
 Die Wieder-Einführung von Zoom an der TUM war trotz Datenschutz-Bedenken gerechtfertigt.
 Die TUM soll an der Nutzung von Zoom festhalten und NICHT auf selbst gehostete Dienste (bspw. BigBlueButton oder Jitsi) umsteigen.
-Es soll auch nach Corona die Möglichkeit geben, Vorlesungen/Praktika ausschließlich online durchzuführen.
-Es soll auch nach Corona die Möglichkeit für digitale Klausuren geben.
-Die Hochschulwahl sollte verpflichtend als Briefwahl durchgeführt werden.
-Bei Hochschulwahlen können zu Gunsten von Onlinewahlen Wahlrechtsgrundsätze, wie bspw. die Nachvollziehbarkeit der Stimmauswerung, vernachlässigt werden.
+Es soll auch nach Corona für Studierende die Möglichkeit geben, sich dafür zu entscheiden an VORLESUNGEN/PRAKTIKA ausschließlich online teilzunehmen.
+Es soll auch nach Corona für Dozierende die Möglichkeit für digitale Klausuren geben.
+Die Hochschulwahl sollte dieses Jahr verpflichtend als Briefwahl durchgeführt werden.
+Bei Hochschulwahlen können zu Gunsten von Onlinewahlen Wahlrechtsgrundsätze, wie bspw. die Nachvollziehbarkeit der Stimmauswertung, vernachlässigt werden.
 It should be possible to voluntarily retake an exam, even after a successful attempt.
 The maximum study duration should remain limited by credit hurdles.
 The students should have greater freedom of choice in their Bachelor's degree.
@@ -43,12 +43,12 @@ The Student Council should support Fridays For Future.
 The Student Council should support the interests of student assistants and tutors.
 The TUM must become climate-neutral by 2030 at the latest.
 Research at the TUM may be financed by business partners.
-Professors who are strong in research should do less teaching than those who are weak in research to do more research instead.
+Professors who are strong in research should do less teaching and do more research instead.
 Proctorio is an acceptable tool for holding online exams.
-A student is disadvantaged, if he/she does not wish to partake in a potentially privacy-violating examination format, as he/she is only able to retake the examination in a further semester alternatively. - A student is disadvantaged if they do not wish to partake in a potentially privacy-violating examination format, as their only alternative is to retake the examination in a later semester.
+A student is disadvantaged if they do not wish to partake in a potentially privacy-violating examination format, as their only alternative is to retake the examination in a later semester.
 The reintroduction of Zoom at the TUM was justified, despite data protection concerns.
 TUM should continue to use Zoom and should NOT switch to self-hosted services (e.g. BigBlueButton or Jitsi).
-Even after Corona, it should be possible to hold lectures/practical courses online exclusively.
-There should also be the possibility for digital exams even after Corona.
-Voting in university elections should be exclusively done via postal votes.
+Even after Corona, it should be possible for students to attend lectures/practical courses online exclusively.
+Teachers should have the possibility to hold digital exams even after Corona.
+Voting in university elections should be exclusively done via postal votes this year.
 In university elections, voting principles can be neglected in favour of online elections e.g. the traceability of the vote/ vote count.
