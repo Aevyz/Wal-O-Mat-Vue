@@ -7,12 +7,10 @@
 
             {{ $t('welcome.description') }}
 
-
-
             <Flag style="margin: 10px 20px"/>
 
             <p v-if="get_date(year)===null">{{$t('welcome.date_unknown') }}</p>
-            <p v-else>{{$t('welcome.date', { date: get_date(year)})}} </p>
+            <p v-else>{{$t('welcome.date', { date: new Date(get_date(year)).toLocaleDateString($i18n.locale) })}} </p>
         </template>
 
         <modal/>
@@ -26,7 +24,7 @@
         <b-alert dismissible show variant="warning">
             <h4 class="alert-heading">Disclaimer</h4>
             <p>
-            {{$t('results.disclaimer')}}
+            {{$t('results.disclaimer', {year: year})}}
             </p>
         </b-alert>
 

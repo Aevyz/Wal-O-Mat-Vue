@@ -44,7 +44,7 @@
     "title": "Results",
     "recommendation": "We find that you have similar opinions to {party}!",
     "party_website": "Tap here to go to the Website of {party}",
-    "disclaimer": "The Walomat is not an election recommendation, but rather an information offer for the 2020 university election; there is no claim to full coverage of the topics in the respective election programs.",
+    "disclaimer": "The Walomat is not an election recommendation, but rather an information offer for the {year} university election; there is no claim to full coverage of the topics in the respective election programs.",
     "tab":{
       "party":{
         "title": "By Party",

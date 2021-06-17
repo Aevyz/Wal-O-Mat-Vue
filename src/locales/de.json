@@ -45,7 +45,7 @@
     "title": "Resultate",
     "recommendation": "Du hast die höchste Übereinstimmung mit der Liste {party}!",
     "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
-    "disclaimer": "Der Walomat ist keine Wahlempfehlung, sondern ein Informationsangebot für die Hochschulwahl 2020. Es besteht kein Anspruch auf eine vollständige Abdeckung der Themen in den jeweiligen Wahlprogrammen.",
+    "disclaimer": "Der Walomat ist keine Wahlempfehlung, sondern ein Informationsangebot für die Hochschulwahl {year}. Es besteht kein Anspruch auf eine vollständige Abdeckung der Themen in den jeweiligen Wahlprogrammen.",
     "tab": {
       "party": {
         "title": "Nach Liste",
