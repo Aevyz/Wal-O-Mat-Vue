@@ -607,7 +607,7 @@
       },
       {
         "q_id": 18,
-        "question": "If a student does not wish to partake in a particular examination format due to data privacy concerns, an examination in a later semester is considered an acceptable alternative."
+        "question": "If a student does not wish to partake in a particular examination format due to data privacy concerns, an examination in a later semester is not considered an acceptable alternative."
       },
       {
         "q_id": 19,
@@ -753,7 +753,7 @@
       {
         "name": "RCDS-TUM",
         "program": "https://www.rcds-bayern.de/tu-muenchen/hochschulwahl/",
-        "website": "www.rcds-tum.de",
+        "website": "https://www.rcds-tum.de",
         "answers": [
           {
             "q_id": 1,
@@ -894,8 +894,8 @@
       },
       {
         "name": "Liste eurer Fachschaften (LitFaS)",
-        "program": "litfas.fs.tum.de/programm",
-        "website": "litfas.fs.tum.de",
+        "program": "https://www.litfas.fs.tum.de/programm",
+        "website": "https://www.litfas.fs.tum.de",
         "answers": [
           {
             "q_id": 1,
