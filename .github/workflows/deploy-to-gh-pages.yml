@@ -16,7 +16,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@0.1.4
         with: 
           find: "\\? '/'"
-          replace: "\\? '/Wal-O-Mat-Vue'"
+          replace: "? '/Wal-O-Mat-Vue'"
           include: "vue.config.js"
         
       - name: Install BootStrap-Vue
