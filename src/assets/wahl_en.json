@@ -665,7 +665,8 @@
       },
       {
         "q_id": 6,
-        "question": "The cascade model is a reasonable way to achieve gender equality at all levels."
+        "question": "The cascade model is a reasonable way to achieve gender equality at all levels.",
+        "hint": "The cascade model was developed for science and was also taken into account in the formulation of the research-oriented equality standards of the German Research Foundation (DFG): \"According to this model, the targets for the proportion of women at each scientific career level are derived from the proportion of women at the qualification level directly below.\" In this context, the success of gender equality is primarily reflected by the proportionate representation of women and men at the respective qualification levels.\""
       },
       {
         "q_id": 7,
