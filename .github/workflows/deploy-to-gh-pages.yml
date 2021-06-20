@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy to Github
 on:
   push:
     branches:
@@ -11,7 +11,21 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-
+      
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@0.1.4
+        with: 
+          find: "        ? '/'"
+          replace: "        ? '/Wal-O-Mat-Vue'"
+        
+  
+              - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "hello"
+          replace: "world"
+          
       - name: Install BootStrap-Vue
         run: npm i bootstrap-vue
 
