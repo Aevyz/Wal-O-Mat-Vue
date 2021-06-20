@@ -14,7 +14,8 @@
       "answered": "Answered",
       "unanswered": "Unanswered",
       "weight": "Weighting"
-    }
+    },
+    "hint": "Additional Information"
   },
   "button": {
     "back": "Back",

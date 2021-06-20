@@ -18,7 +18,7 @@
                     <div class="accordion" role="tablist" v-if="questions[index].hint!==undefined">
                         <b-card no-body class="mb-1" >
                             <b-card-header header-tag="header" class="p-1" role="tab">
-                                <b-button block v-b-toggle.accordion-1 variant="warning">Additional Information</b-button>
+                                <b-button block v-b-toggle.accordion-1 variant="warning">{{$t('questions.hint')}}</b-button>
                             </b-card-header>
                             <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
                                 <b-card-body>
@@ -30,7 +30,6 @@
 
 
                 </b-container>
-
 
                 <Question_Progress_Bar
                         :user_results="user_results"
@@ -49,14 +48,6 @@
                 </b-list-group-item>
             </b-list-group>
 
-            <!--            <hr>-->
-            <!--            &lt;!&ndash;                Back Button &ndash;&gt;-->
-            <!--            <b-button class="regular" v-if="index===0" disabled>{{$t('button.back')}}</b-button>-->
-            <!--            <b-button class="regular" v-else @click="back">{{$t('button.back')}}</b-button>-->
-            <!--            &lt;!&ndash;                Forward Button&ndash;&gt;-->
-            <!--            <b-button class="regular" v-if="questions.length-1===index" @click="set_scene('star')" >{{$t('button.done')}}</b-button>-->
-            <!--            <b-button class="regular" v-else @click="next">{{$t('button.next')}}</b-button>-->
-
             <b-button-group style="display: flex">
                 <b-button style="flex-grow: initial; width: 50px" @click="set_scene('welcome')">&laquo;</b-button>
                 <b-button style="flex-grow: initial; width: 50px" v-bind:disabled="index===0" @click="back()">&lsaquo;</b-button>
@@ -64,24 +55,6 @@
                 <b-button style="flex-grow: initial; width: 50px" v-bind:disabled="index===questions.length-1" @click="next()">&rsaquo;</b-button>
                 <b-button style="flex-grow: initial; width: 50px" @click="set_scene('star')">&raquo;</b-button>
             </b-button-group>
-
-            <!--            <div>-->
-            <!--                <b-button-toolbar key-nav aria-label="Toolbar with button groups">-->
-            <!--                    <b-button-group class="mx-1">-->
-            <!--                        <b-button>&laquo;</b-button>-->
-            <!--                        <b-button>&lsaquo;</b-button>-->
-            <!--                    </b-button-group>-->
-            <!--                    <b-button-group class="mx-1">-->
-            <!--                        <b-button disabled variant="primary" style="width: available">Edit</b-button>-->
-
-            <!--                    </b-button-group>-->
-            <!--                    <b-button-group class="mx-1">-->
-            <!--                    </b-button-group>-->
-            <!--                </b-button-toolbar>-->
-            <!--            </div>-->
-
-
-            <!--            <p id = "debug">{{user_results}}</p>-->
 
         </b-jumbotron>
 

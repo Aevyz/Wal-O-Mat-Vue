@@ -14,7 +14,8 @@
       "answered": "Beantwortet",
       "unanswered": "Unbeantwortet",
       "weight": "Gewichtet"
-    }
+    },
+    "hint": "Weitere Informationen"
   },
   "button": {
     "back": "Zurück",

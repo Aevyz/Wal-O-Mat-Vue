@@ -24,9 +24,9 @@
                 >
                     <div style="text-align: left"> {{q.question}}</div>
 
-                    <b-badge v-if="results[q.q_id]===-1" pill variant="danger">Disagree</b-badge>
-                    <b-badge v-if="results[q.q_id]===0 || results[q.q_id]===undefined" pill variant="warning">Neutral</b-badge>
-                    <b-badge v-if="results[q.q_id]===1" pill variant="success">Agree</b-badge>
+                    <b-badge v-if="results[q.q_id]===-1" pill variant="danger">{{$t('badge.disagree')}}</b-badge>
+                    <b-badge v-if="results[q.q_id]===0 || results[q.q_id]===undefined" pill variant="warning">{{$t('badge.neutral')}}</b-badge>
+                    <b-badge v-if="results[q.q_id]===1" pill variant="success">{{$t('badge.agree')}}</b-badge>
                 </b-list-group-item>
             </b-list-group>
 
