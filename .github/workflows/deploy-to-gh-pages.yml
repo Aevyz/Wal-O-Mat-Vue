@@ -17,6 +17,7 @@ jobs:
         with: 
           find: "        ? '/'"
           replace: "        ? '/Wal-O-Mat-Vue'"
+          include: "vue.config.js"
         
       - name: Install BootStrap-Vue
         run: npm i bootstrap-vue
