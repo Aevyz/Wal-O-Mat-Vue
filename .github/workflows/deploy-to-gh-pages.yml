@@ -12,14 +12,6 @@ jobs:
         with:
           persist-credentials: false
       
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@0.1.4
-        with: 
-          find: "\\? '/'"
-          replace: "? '/Wal-O-Mat-Vue'"
-          include: "vue.config.js"
-      - name: CAT
-        run: cat vue.config.js
       - name: Install BootStrap-Vue
         run: npm i bootstrap-vue
 
@@ -29,7 +21,23 @@ jobs:
       - name: NPM Run Build
         run: npm run build
 
-      - name: Deploy 🚀
+      - name: Generate Code 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: deploy
+          FOLDER: dist
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@0.1.4
+        with: 
+          find: "\\? '/'"
+          replace: "? '/Wal-O-Mat-Vue'"
+          include: "vue.config.js"
+      - name: CAT
+        run: cat vue.config.js
+        
+      - name: Deploy to Github 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
