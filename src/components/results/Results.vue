@@ -12,7 +12,7 @@
             <b-alert dismissible show variant="warning">
                 <h4 class="alert-heading">Disclaimer</h4>
                 <p>
-                    {{$t('results.disclaimer', {year: year})}}
+                    {{$t('results.disclaimer', {year: year_data.year})}}
                 </p>
             </b-alert>
 
